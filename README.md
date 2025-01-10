@@ -50,8 +50,55 @@ To set up the project locally, follow these steps:
    git clone https://github.com/yourusername/UniHostelNet.git
    cd UniHostelNet
 
-2 **For the Frontend**:
-    ```bash
-    cd frontend
-    npm install
 
+Install dependencies:
+
+**For the frontend**:
+
+cd frontend
+npm install
+
+**For the backend**:
+
+cd backend
+npm install
+
+**Set up the database**:
+
+Ensure you have MongoDB installed and running.
+Create a database for the project and configure the connection settings in the backend code.
+
+**Start the backend server**:
+
+cd backend
+node server.js
+
+**Start the frontend application**:
+
+cd frontend
+npm start
+
+## Usage
+## For Students:
+
+- Create an account by providing necessary details such as name, email, and password.
+- Log in to access the dashboard where you can manage your hostel-related tasks, including room selection, attendance marking, and submitting complaints.
+## For Administrators:
+- Log in to the admin dashboard to manage student records, handle complaints, monitor attendance, and send notices to students.
+- Use the dashboard to view real-time statistics and manage room allocations efficiently.
+## Future Enhancements
+ **Additional Services**:
+- Implement features such as laundry management, fee tracking, and meal ordering to enhance student convenience.
+**User Interface Improvements**:
+-Continuously refine the user interface based on user feedback to improve usability and accessibility.
+**Advanced Attendance Features**:
+Integrate more sophisticated attendance tracking methods, such as geolocation verification, to ensure students are present in the hostel.
+**Mobile Application**:
+Develop a mobile version of the application to allow students and admins to access the system on the go.
+
+# License
+This project is licensed under the MIT License - see the LICENSE file for details
+
+# Acknowledgments
+- Special thanks to the authors of the referenced literature for their contributions to the field of hostel management systems.
+- Thanks to SRM Institute of Science and Technology for providing the resources and support for this project.
