@@ -46,4 +46,12 @@ UniHostelNet is a comprehensive web application designed to automate the adminis
 To set up the project locally, follow these steps:
 
 1. **Clone the repository**:
-   
+    ```bash
+   git clone https://github.com/yourusername/UniHostelNet.git
+   cd UniHostelNet
+
+2 **For the Frontend**:
+    ```bash
+    cd frontend
+    npm install
+
