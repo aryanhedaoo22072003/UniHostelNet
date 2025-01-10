@@ -55,13 +55,13 @@ Install dependencies:
 
 **For the frontend**:
 
-cd frontend
-npm install
+- cd frontend
+- npm install
 
 **For the backend**:
 
-cd backend
-npm install
+- cd backend
+- npm install
 
 **Set up the database**:
 
@@ -70,13 +70,13 @@ Create a database for the project and configure the connection settings in the b
 
 **Start the backend server**:
 
-cd backend
-node server.js
+- cd backend
+- node server.js
 
 **Start the frontend application**:
 
-cd frontend
-npm start
+- cd frontend
+- npm start
 
 ## Usage
 ## For Students:
